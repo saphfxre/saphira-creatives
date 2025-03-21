@@ -593,7 +593,7 @@ a {
 
 
 
-@media (min-width: 300px) and (max-width: 980px) {
+@media (min-width: 400px) and (max-width: 980px) {
 
   @font-face {
     font-family: Report;
