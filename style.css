@@ -1,0 +1,1221 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  line-height: 2em;
+}
+
+@media all and (min-width: 980px) {
+
+    
+    @font-face {
+        font-family: Report;
+        src: url(fonts/report/ReportRg\ Regular.ttf);
+      }
+      
+        @font-face {
+        font-family: ReportBold;
+        src: url(fonts/report/ReportRg\ Bold.ttf);
+      }
+
+      @font-face {
+        font-family:"hwt-konop-12-line";
+        src:url("https://use.typekit.net/af/bf8421/00000000000000007736d854/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/bf8421/00000000000000007736d854/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/bf8421/00000000000000007736d854/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+        font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+        }
+    
+
+
+    body {
+      margin: 0px;
+      padding: 0px;
+    }
+    
+    
+.header {
+  background-color: #4b3aaf;
+  display: flex;
+  justify-content: space-between; 
+  align-items: flex-end; 
+  height: auto; 
+  width: 100%;
+}
+
+
+.logo {
+  width: 35%; 
+  padding: 20px 0px 20px 20px;
+}
+
+
+
+
+.nav {
+  display: flex; 
+  font-family: Report;
+  font-size: 22px;
+  justify-content: space-between;
+  align-items: center; 
+  padding-bottom: 27px;
+  width: auto;
+}
+
+
+.link {
+  text-decoration: none;
+  color: #ffe9b3;
+  margin: 0 40px 0 0; 
+  display: inline-block;
+}
+
+.line {
+  text-decoration: none;
+  color: #ffe9b3;
+  margin: 0 40px 0 0; 
+  display: inline-block;
+}
+
+
+nav .link:hover {
+  color: black;
+}
+
+
+
+.spacer {
+  padding: 20px;
+  background-color: #1a1943;
+}
+
+.bodycont {
+  background-color: #1a1943;
+  width: 100%;
+  overflow: hidden;
+}
+
+.headshot {
+  max-width: 30%;
+  height: auto;
+  padding: 40px;
+  float: left;
+
+}
+
+.bodytext {
+  width: 60%;
+  float: left;
+  color: white;
+  overflow: hidden;
+  margin: 0px;
+}
+
+h2 {
+  font-family: "hwt-konop-12-line", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: normal;
+  font-size: 65px;
+  margin-bottom: 30px;
+  color: white;
+}
+
+p {
+  font-family: Report;
+  font-size: 30px;
+  letter-spacing: 1px;
+  line-height: normal;
+  
+}
+
+.p1 {
+  font-size: 35px;
+  margin-top: 0;
+}
+
+.clearleft {
+  clear: left;
+}
+
+.footerlogo {
+  width: 30%;
+  padding-top: 20px;
+}
+
+footer {
+  background-color: #4b3aaf;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+
+
+.bodycontcontact {
+  background-color: #1a1943;
+  width: 100%;
+  overflow: hidden;
+}
+
+.contact-item {
+  display: flex;           
+  align-items: center;     
+  width: 20%;
+  margin-bottom: 20px; 
+  font-family: Report;
+}
+
+.contact-item img {
+  width: 15%;     
+  margin-right: 10px;         
+}
+
+.contact-item a {
+  color: #fff;                
+  font-size: 30px;         
+}
+
+
+.digarttitle {
+  font-family: "hwt-konop-12-line", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: normal;
+  font-size: 65px;
+  margin-bottom: 30px;
+  color: white;
+  text-align: center;
+}
+
+
+.digartimgdiv {
+  padding: 10px;
+  display: flex;
+  justify-content: space-around; 
+  align-items: space-around;    
+  gap: 0;                     
+}
+
+.digimg1 {
+  width: 27%;
+  display: block;
+  height: auto;
+  margin: 10px;
+  object-fit: contain;
+}
+
+.digimg2 {
+  width: 45%;
+  display: block;
+  height: auto;
+  margin: 10px;
+  object-fit: contain;
+}
+
+.digimg3 {
+  width: 23%;
+  display: block;
+  height: auto;
+  margin: 10px;
+  object-fit: contain;
+}
+
+.digimg6 {
+  width: 30%;
+  display: block;
+  height: auto;
+  margin: 10px;
+  object-fit: contain;
+}
+
+.digimg7 {
+  width: 30%;
+  display: block;
+  height: auto;
+  margin: 10px;
+  object-fit: contain;
+}
+
+.digimg8 {
+  width: 36%;
+  display: block;
+  height: auto;
+  margin: 10px;
+  object-fit: contain;
+
+}
+
+.digimg4 {
+  width: 50%;
+  display: block;
+  max-width: 50%;
+  height: auto;
+  margin: 10px;
+}
+
+.digimg5 {
+  width: 50%;
+  display: block;
+  max-width: 50%;
+  height: auto;
+  margin: 10px;
+}
+
+
+.digimg9 {
+  width: 32%;
+  display: block;
+  height: auto;
+  margin: 10px;
+  object-fit: contain;
+}
+
+.digimg10 {
+  width: 32%;
+  display: block;
+  height: auto;
+  margin: 10px;
+  object-fit: contain;
+}
+
+.digimg11 {
+  width: 32%;
+  display: block;
+  height: auto;
+  margin: 10px;
+  object-fit: contain;
+
+}
+
+.digimg12 {
+  width: 40%;
+  display: block;
+  height: auto;
+  margin: 10px;
+  object-fit: contain;
+}
+
+.digimg13 {
+  width: 40%;
+  display: block;
+  height: auto;
+  margin: 10px;
+  object-fit: contain;
+}
+
+.digimg14 {
+  width: 25.5%;
+  display: block;
+  height: auto;
+  margin: 10px;
+  object-fit: contain;
+
+}
+
+.digimg15 {
+  width: 19%;
+  display: block;
+  height: auto;
+  margin: 10px;
+  object-fit: contain;
+}
+
+.digimg16 {
+  width: 45%;
+  display: block;
+  height: auto;
+  margin: 10px;
+  object-fit: contain;
+
+}
+
+.digimg17 {
+  width: 37.5%;
+  display: block;
+  height: auto;
+  margin: 10px;
+  object-fit: contain;
+
+}
+
+.digimg18 {
+  width: 35%;
+  display: block;
+  height: auto;
+  margin: 10px;
+  object-fit: contain;
+}
+
+.digimg19 {
+  width: 30%;
+  display: block;
+  height: auto;
+  margin: 10px;
+  object-fit: contain;
+
+}
+
+.digimg20 {
+  width: 42%;
+  display: block;
+  height: auto;
+  margin: 10px;
+  object-fit: contain;
+
+}
+
+
+.gradestitle {
+  font-family: "hwt-konop-12-line", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: normal;
+  font-size: 65px;
+  margin-bottom: 30px;
+  color: white;
+  text-align: center;
+}
+
+h3 {
+  font-family: Report;
+  color: white;
+  font-size: 45px;
+  text-align: center;
+}
+
+
+.gradesimgdiv {
+  padding: 10px;
+  display: flex;
+  justify-content: space-around; 
+  align-items: space-around;    
+  gap: 0;                    
+}
+
+.graimg1 {
+  width: 30%;
+  display: block;
+  height: auto;
+  margin: 10px;
+  object-fit: contain;
+}
+
+.graimg2 {
+  width: 30%;
+  display: block;
+  height: auto;
+  margin: 10px;
+  object-fit: contain;
+}
+
+.graimg3 {
+  width: 33%;
+  display: block;
+  height: auto;
+  margin: 10px;
+  object-fit: contain;
+}
+
+.graimg4 {
+width: 33%;
+display: block;
+height: auto;
+margin: 10px;
+object-fit: contain;
+}
+
+.graimg5 {
+width: 33%;
+display: block;
+height: auto;
+margin: 10px;
+object-fit: contain;
+}
+
+.graimg6 {
+width: 29%;
+display: block;
+height: auto;
+margin: 10px;
+object-fit: contain;
+}
+
+.graimg7 {
+width: 50%;
+display: block;
+height: auto;
+margin: 10px;
+object-fit: contain;
+}
+
+.graimg8 {
+width: 20%;
+display: block;
+height: auto;
+margin: 10px;
+object-fit: contain;
+}
+
+.graimg9 {
+  width: 23%;
+  display: block;
+  height: auto;
+  margin: 10px;
+  object-fit: contain;
+  }
+/**/
+
+  .graimg10 {
+    width: 30%;
+    display: block;
+    height: auto;
+    margin: 10px;
+    object-fit: contain;
+    }
+
+    .graimg11 {
+      width: 29%;
+      display: block;
+      height: auto;
+      margin: 10px;
+      object-fit: contain;
+      }
+
+      .graimg12 {
+        width: 38%;
+        display: block;
+        height: auto;
+        margin: 10px;
+        object-fit: contain;
+        }
+
+        .graimg13 {
+          width: 40%;
+          display: block;
+          height: auto;
+          margin: 10px;
+          object-fit: contain;
+          }
+
+          .graimg14 {
+            width: 40%;
+            display: block;
+            height: auto;
+            margin: 10px;
+            object-fit: contain;
+            }
+
+            .graimg15 {
+              width: 30%;
+              display: block;
+              height: auto;
+              margin: 10px;
+              object-fit: contain;
+              }
+.graimg16 {
+  width: 100%;
+  display: block;
+  height: auto;
+  margin: 10px;
+  object-fit: contain;
+}
+
+
+/**/
+
+.gamdesh3 {
+  font-family: Report;
+  font-size: 25px;
+  color: white;
+}
+
+a {
+  text-decoration: underline;
+  color: #fff;
+}
+
+
+.cfbanner {
+  width: 100%;
+}
+
+.gamedesimgdiv {
+  padding: 10px;
+  display: flex;
+  justify-content: space-around; 
+  align-items: space-around;    
+  gap: 0;                     
+}
+
+.gade1 {
+  width: 50%;
+  display: block;
+  height: auto;
+  margin: 10px;
+  object-fit: contain;
+}
+
+.gade2 {
+  width: 60%;
+  display: block;
+  height: auto;
+  margin: 10px;
+  object-fit: contain;
+}
+
+.gade3 {
+  width: 40%;
+  display: block;
+  height: auto;
+  margin: 10px;
+  object-fit: contain;
+}
+
+.gade4 {
+  width: 35%;
+  display: block;
+  height: auto;
+  margin: 10px;
+  object-fit: contain;
+}
+
+.gade5 {
+  width: 40%;
+  display: block;
+  height: auto;
+  margin: 10px;
+  object-fit: contain;
+}
+
+}
+
+
+/*MOBILE*/
+
+
+
+@media (min-width: 400px) and (max-width: 980px) {
+
+  @font-face {
+    font-family: Report;
+    src: url(fonts/report/ReportRg\ Regular.ttf);
+  }
+  
+    @font-face {
+    font-family: ReportBold;
+    src: url(fonts/report/ReportRg\ Bold.ttf);
+  }
+
+  @font-face {
+    font-family:"hwt-konop-12-line";
+    src:url("https://use.typekit.net/af/bf8421/00000000000000007736d854/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/bf8421/00000000000000007736d854/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/bf8421/00000000000000007736d854/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+    font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+    }
+
+
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+/* Default Header and Navigation (for larger screens) */
+.header {
+  background-color: #4b3aaf;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 80%; 
+  padding: 5% 10%;
+  margin-bottom: 20px; /* Space between logo and nav */
+}
+
+.nav {
+  flex-direction: column; /* Stack nav items vertically */
+  font-size: 30px; /* Adjust font size for mobile */
+  justify-content: flex-start; /* Align links to the top */
+  width: 100%; /* Make the nav take full width */
+  text-decoration: none;
+  font-family: Report;
+  color: white;
+  margin-bottom: 5%;
+}
+
+.nav a {
+  text-decoration: none;
+  margin-bottom: 5%;
+}
+
+.link {
+  margin: 10px 0; /* Adjust margin for vertical spacing between links */
+  display: block; /* Ensure links are block-level elements */
+}
+
+.line {
+  display: none; /* Hide the '|' separator on mobile */
+}
+
+nav .link:hover {
+  color: black;
+}
+
+
+
+
+
+.spacer {
+padding: 20px;
+background-color: #1a1943;
+
+}
+
+.bodycont {
+background-color: #1a1943;
+width: 100%;
+overflow: hidden;
+}
+
+/* Wrapper around the content */
+.wrapper {
+  display: flex;
+  justify-content: center;   /* Center horizontally */
+  align-items: center;       /* Center vertically */
+  text-align: center;        /* Ensure text inside is centered */
+  flex-wrap: wrap;           /* Allow content to wrap on smaller screens */
+  width: 100%;
+  padding: 2%;             /* Optional: Adjust padding around content */
+}
+
+.headshot {
+  width: 80%;                /* Width of the headshot image */
+  height: auto;
+  margin: 2%;              /* Optional: Adjust margin */
+}
+
+.bodytext {
+  color: white;
+  overflow: hidden;
+  margin: 0;
+  padding: 5%;
+  width: 100%;               /* Ensure it takes full width in the flexbox layout */
+  text-align: center;        /* Optional: Center text inside the bodytext */
+}
+
+
+h2 {
+font-family: "hwt-konop-12-line", sans-serif;
+font-weight: 400;
+font-style: normal;
+line-height: normal;
+font-size: 65px;
+margin-bottom: 30px;
+color: white;
+}
+
+p {
+font-family: Report;
+font-size: 30px;
+letter-spacing: 1px;
+line-height: normal;
+
+}
+
+.p1 {
+font-size: 35px;
+margin-top: 0;
+}
+
+.clearleft {
+clear: left;
+}
+
+.footerlogo {
+width: 30%;
+padding-top: 20px;
+}
+
+footer {
+background-color: #4b3aaf;
+padding: 10px;
+text-align: center;
+color: white;
+}
+
+
+
+/* Ensure .bodycontcontact takes full width, centers content, and adds spacing */
+.bodycontcontact {
+  background-color: #1a1943;
+  width: auto;
+  overflow: hidden;
+  display: flex; /* Use flexbox for centering */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center content horizontally */
+  justify-content: center; /* Center content vertically */
+  padding: 20px; /* Add some padding for spacing */
+}
+
+/* Center and adjust the width of .contact-item */
+.contact-item {
+  display: flex;
+  align-items: center; 
+  width: 80%; /* Increase width for better mobile layout */
+  margin-bottom: 20px;
+  justify-content: center; /* Center content inside each item */
+  font-family: Report;
+}
+
+/* Adjust image size */
+.contact-item img {
+  width: 15%; /* Make the image bigger for mobile */
+  margin-right: 10px;
+}
+
+/* Adjust link styles */
+.contact-item a {
+  color: #fff;
+  font-size: 30px; /* Make font size slightly smaller for better mobile readability */
+  text-decoration: underline; /* Remove underline if necessary */
+  padding: 0 10px; /* Add some space around the link */
+}
+
+/* Adjusting the headshot for mobile */
+.headshot {
+  width: 60%; /* Make the headshot image smaller for better alignment on mobile */
+  height: auto;
+  margin-bottom: 20px; /* Space below the headshot image */
+}
+
+/* Adjust heading size */
+
+h2 {
+  color: #fff;
+  font-size: 36px; /* Adjust the font size for mobile */
+  margin-bottom: 40px; /* Space below the heading */
+}
+
+
+
+.digarttitle {
+font-family: "hwt-konop-12-line", sans-serif;
+font-weight: 400;
+font-style: normal;
+line-height: normal;
+font-size: 65px;
+margin-bottom: 30px;
+color: white;
+text-align: center;
+}
+
+
+.digartimgdiv {
+padding: 10px;
+display: flex;
+justify-content: space-around; 
+align-items: space-around;    
+gap: 0;                     
+}
+
+.digimg1 {
+width: 27%;
+display: block;
+height: auto;
+margin: 10px;
+object-fit: contain;
+}
+
+.digimg2 {
+width: 45%;
+display: block;
+height: auto;
+margin: 10px;
+object-fit: contain;
+}
+
+.digimg3 {
+width: 23%;
+display: block;
+height: auto;
+margin: 10px;
+object-fit: contain;
+}
+
+.digimg6 {
+width: 30%;
+display: block;
+height: auto;
+margin: 10px;
+object-fit: contain;
+}
+
+.digimg7 {
+width: 30%;
+display: block;
+height: auto;
+margin: 10px;
+object-fit: contain;
+}
+
+.digimg8 {
+width: 36%;
+display: block;
+height: auto;
+margin: 10px;
+object-fit: contain;
+
+}
+
+.digimg4 {
+width: 50%;
+display: block;
+max-width: 50%;
+height: auto;
+margin: 10px;
+}
+
+.digimg5 {
+width: 50%;
+display: block;
+max-width: 50%;
+height: auto;
+margin: 10px;
+}
+
+
+.digimg9 {
+width: 32%;
+display: block;
+height: auto;
+margin: 10px;
+object-fit: contain;
+}
+
+.digimg10 {
+width: 32%;
+display: block;
+height: auto;
+margin: 10px;
+object-fit: contain;
+}
+
+.digimg11 {
+width: 32%;
+display: block;
+height: auto;
+margin: 10px;
+object-fit: contain;
+
+}
+
+.digimg12 {
+width: 40%;
+display: block;
+height: auto;
+margin: 10px;
+object-fit: contain;
+}
+
+.digimg13 {
+width: 40%;
+display: block;
+height: auto;
+margin: 10px;
+object-fit: contain;
+}
+
+.digimg14 {
+width: 25.5%;
+display: block;
+height: auto;
+margin: 10px;
+object-fit: contain;
+
+}
+
+.digimg15 {
+width: 19%;
+display: block;
+height: auto;
+margin: 10px;
+object-fit: contain;
+}
+
+.digimg16 {
+width: 45%;
+display: block;
+height: auto;
+margin: 10px;
+object-fit: contain;
+
+}
+
+.digimg17 {
+width: 37.5%;
+display: block;
+height: auto;
+margin: 10px;
+object-fit: contain;
+
+}
+
+.digimg18 {
+width: 35%;
+display: block;
+height: auto;
+margin: 10px;
+object-fit: contain;
+}
+
+.digimg19 {
+width: 30%;
+display: block;
+height: auto;
+margin: 10px;
+object-fit: contain;
+
+}
+
+.digimg20 {
+width: 42%;
+display: block;
+height: auto;
+margin: 10px;
+object-fit: contain;
+
+}
+
+
+.gradestitle {
+font-family: "hwt-konop-12-line", sans-serif;
+font-weight: 400;
+font-style: normal;
+line-height: normal;
+font-size: 65px;
+margin-bottom: 30px;
+color: white;
+text-align: center;
+}
+
+h3 {
+font-family: Report;
+color: white;
+font-size: 45px;
+text-align: center;
+}
+
+
+.gradesimgdiv {
+padding: 10px;
+display: flex;
+justify-content: space-around; 
+align-items: space-around;    
+gap: 0;                    
+}
+
+.graimg1 {
+width: 30%;
+display: block;
+height: auto;
+margin: 10px;
+object-fit: contain;
+}
+
+.graimg2 {
+width: 30%;
+display: block;
+height: auto;
+margin: 10px;
+object-fit: contain;
+}
+
+.graimg3 {
+width: 33%;
+display: block;
+height: auto;
+margin: 10px;
+object-fit: contain;
+}
+
+.graimg4 {
+width: 33%;
+display: block;
+height: auto;
+margin: 10px;
+object-fit: contain;
+}
+
+.graimg5 {
+width: 33%;
+display: block;
+height: auto;
+margin: 10px;
+object-fit: contain;
+}
+
+.graimg6 {
+width: 29%;
+display: block;
+height: auto;
+margin: 10px;
+object-fit: contain;
+}
+
+.graimg7 {
+width: 50%;
+display: block;
+height: auto;
+margin: 10px;
+object-fit: contain;
+}
+
+.graimg8 {
+width: 20%;
+display: block;
+height: auto;
+margin: 10px;
+object-fit: contain;
+}
+
+.graimg9 {
+width: 23%;
+display: block;
+height: auto;
+margin: 10px;
+object-fit: contain;
+}
+
+
+.graimg10 {
+width: 30%;
+display: block;
+height: auto;
+margin: 10px;
+object-fit: contain;
+}
+
+.graimg11 {
+  width: 29%;
+  display: block;
+  height: auto;
+  margin: 10px;
+  object-fit: contain;
+  }
+
+  .graimg12 {
+    width: 38%;
+    display: block;
+    height: auto;
+    margin: 10px;
+    object-fit: contain;
+    }
+
+    .graimg13 {
+      width: 40%;
+      display: block;
+      height: auto;
+      margin: 10px;
+      object-fit: contain;
+      }
+
+      .graimg14 {
+        width: 40%;
+        display: block;
+        height: auto;
+        margin: 10px;
+        object-fit: contain;
+        }
+
+        .graimg15 {
+          width: 30%;
+          display: block;
+          height: auto;
+          margin: 10px;
+          object-fit: contain;
+          }
+.graimg16 {
+width: 100%;
+display: block;
+height: auto;
+margin: 10px;
+object-fit: contain;
+}
+
+
+
+
+.gamdesh3 {
+font-family: Report;
+font-size: 25px;
+color: white;
+}
+
+a {
+text-decoration: underline;
+color: #fff;
+}
+
+
+.cfbanner {
+width: 100%;
+}
+
+.gamedesimgdiv {
+padding: 10px;
+display: flex;
+justify-content: space-around; 
+align-items: space-around;    
+gap: 0;                     
+}
+
+.gade1 {
+width: 50%;
+display: block;
+height: auto;
+margin: 10px;
+object-fit: contain;
+}
+
+.gade2 {
+width: 60%;
+display: block;
+height: auto;
+margin: 10px;
+object-fit: contain;
+}
+
+.gade3 {
+width: 40%;
+display: block;
+height: auto;
+margin: 10px;
+object-fit: contain;
+}
+
+.gade4 {
+width: 35%;
+display: block;
+height: auto;
+margin: 10px;
+object-fit: contain;
+}
+
+.gade5 {
+width: 40%;
+display: block;
+height: auto;
+margin: 10px;
+object-fit: contain;
+}
+
+}
+
+
+
+
+
